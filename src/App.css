@@ -186,6 +186,10 @@ a {
   height: 24px;
 }
 
+#con_img {
+  border-top: 1px solid #CFD8DC;
+}
+
 #con_img > img {
   background-color: #FFFFFF;
   border-radius: 16px;
@@ -482,6 +486,10 @@ a {
     height: 300px !important;
   }
 
+  #con_intro {
+    margin: 15px 20px 6px 20px !important;
+  }
+
   #con_txt {
     font-weight: 500 !important;
     font-size: 12px !important;
@@ -524,7 +532,7 @@ a {
     }
 
     #con_intro {
-      margin: 20px 20px 0 20px;
+      margin: 20px 20px 12px 20px;
     }
     
     #con_intro > span {
