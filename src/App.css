@@ -157,11 +157,11 @@ a {
   display: flex;
   flex-direction: column;
   background-color: blue;
-  width: 40vw;
-  height: 20vh;
+  width: 600px;
+  height: 326px;
   background: #FFFFFF;
   border-radius: 16px;
-  margin-top: 30vh;
+  margin-top: 25vh;
   margin-bottom: 30vh;
   padding: 0;
 }
@@ -172,7 +172,7 @@ a {
   margin: 20px;
 }
 
-#con_intro > h4 {
+#con_intro > span {
   font-family: 'Red Rose';
   font-style: normal;
   font-weight: 700;
@@ -478,12 +478,13 @@ a {
 
   #p1img > img {
     width: 283px !important;
-    height: 300 px !important;
+    height: 300px !important;
   }
 
-  #con_intro > h4 {
-    font-size: 2px;
-    line-height: 18px;
+  #con_txt {
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 10px;
   }
 }
 
@@ -516,11 +517,16 @@ a {
       margin-bottom: -50px;
     }
 
+    #con_wallet {
+      width: 70vw;
+      height: 20vh;
+    }
+
     #con_intro {
       margin: 20px 20px 0 20px;
     }
     
-    #con_intro > h4 {
+    #con_intro > span {
       font-size: 16px;
       line-height: 18px;
     }

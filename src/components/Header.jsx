@@ -72,7 +72,7 @@ toggleConnect = () => {
           <div>
             <div id='con_wallet'>
                 <div id='con_intro'>
-                  <h4>Connect Wallet</h4>
+                  <span id='con_txt'>Connect Wallet</span>
                   <img onClick={() => this.toggleConnect()} src={cancel} alt="" />
                 </div>
                 <div id='con_img'><img src={popund} alt="" /></div>
